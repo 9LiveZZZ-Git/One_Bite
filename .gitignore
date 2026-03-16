@@ -1,0 +1,22 @@
+# Build output
+build/
+Builds/
+
+# IDE files
+*.sln
+*.vcxproj*
+*.xcodeproj/
+*.xcworkspace/
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Agent / Claude
+.agent/
+.claude/
