@@ -37,6 +37,8 @@ juce_generate_juce_header(one_bite)
 target_sources(one_bite
     PRIVATE
         one_bite/FaustPluginProcessor.cpp
+        one_bite/OneBiteEditor.h
+        one_bite/OneBiteEditor.cpp
 )
 
 # Include path fix for Faust-generated #include directives:
